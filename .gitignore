@@ -106,4 +106,4 @@ dist
 
 node_modules
 .DS_Store
-/back-end/db
+/back-end/db.DS_Store

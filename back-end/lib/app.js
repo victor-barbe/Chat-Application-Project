@@ -3,6 +3,7 @@ const express = require("express");
 const cors = require("cors");
 const authenticator = require("./authenticator");
 
+
 const app = express();
 const authenticate = authenticator({
   test_payload_email: process.env["TEST_PAYLOAD_EMAIL"],
